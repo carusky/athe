@@ -8,8 +8,11 @@ body{
     background-color:white;
 }
 .dark{
-    color: white;
-    background-color:black;
+    /* *{ */
+        color: white;
+        background-color:rgba(20, 19, 19, 0.884);
+    /* } */
+    
 }
 .navbar-brand{
     font-family: 'kalnia Glaze';
