@@ -190,6 +190,11 @@ footer{
         margin: 0 0 -30% 45%;
         background-image: linear-gradient(to top right,#862058, #49102f);
     }
+    .form-cont{
+        margin: -5% 0 0 0%;
+        width: 60%;
+    
+    }
 }
 /*x small mobile */
 @media (min-width: 481px) and (max-width:767px){
@@ -283,6 +288,11 @@ footer{
         }
         footer{
             font-size: 15px;
+        }
+        .form-cont{
+            margin: -45% 0 0 47%;
+            width: 33%;
+        
         }
 }
 /* x large */
@@ -421,4 +431,9 @@ footer{
         background-color: rgb(161, 36, 211); 
         border: none;
     }  
+    .form-cont{
+        margin: -30% 0 0 50%;
+        width: 30%;
+    
+    }
 }
