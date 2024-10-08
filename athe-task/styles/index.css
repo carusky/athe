@@ -48,7 +48,29 @@
     width: 100%;
     height: 450px;
 }
-
+.card-title{
+    font-weight: bolder; 
+    margin: 0 0 0 16%;
+    color:#8940ce;
+}
+.card-text{
+    width: 75%;
+    margin: 0 0 0 16%;
+    padding: 0 0 3% 0;
+}
+#card-cont{
+    width:fit-content; 
+    height: 35%;  
+    margin: 7% 0 0 0;
+    padding: 5% 0 0 0; 
+    background-color: #c5c0c0;
+    border: none;
+}
+#serv-img{
+    margin: 0 0 0 0; 
+    width: 500px; 
+    height: 300px;
+}
 .dentist{
     margin: 50px 0 0 30px;
     width: 40%;
@@ -62,9 +84,9 @@
     position: absolute; 
     margin: 150px ;
 }
-#d-name{
+/* #d-name{
 
-}
+} */
 .contact-cont{
     width: 50%;
     margin: 50px;
@@ -152,7 +174,7 @@ footer{
 @media (max-width: 480px){
     body{
         font-size: 20px;
-
+        width: 90%;
     }
     #rd-more{
         margin: 30px 0 0 40%;
@@ -171,6 +193,7 @@ footer{
     margin: 50px 0 0 0 ;
     width: 100%;
     height: 50%;
+    padding: 10px 0 0 10px;
     }
     .dentist{
         margin: 50px 0 0 10px;
@@ -187,13 +210,30 @@ footer{
         font-weight: bold;
         width: 200px; 
         border: none; 
-        margin: 0 0 -30% 45%;
+        margin: 0 0 -30% 40%;
         background-image: linear-gradient(to top right,#862058, #49102f);
     }
     .form-cont{
         margin: -5% 0 0 0%;
         width: 60%;
     
+    }
+    #serv-img{
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    .card-text{
+        width: 75%;
+        margin: 0 0 0 16%;
+        padding: 0 0 3% 0;
+    } 
+    #card-cont{
+        width:100%; 
+        height: 35%;  
+        margin: 7% 0 0 0;
+        padding: 5% 0 0 0; 
+        background-color: #c5c0c0;
+        border: none;
     }
 }
 /*x small mobile */
@@ -437,3 +477,8 @@ footer{
     
     }
 }
+
+
+
+
+/* font:svwsf */
