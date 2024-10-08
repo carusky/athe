@@ -3,6 +3,14 @@
     scroll-behavior: smooth;
     font-size: 15px;
 }
+body{
+    color:black;
+    background-color:white;
+}
+.dark{
+    color: white;
+    background-color:black;
+}
 .navbar-brand{
     font-family: 'kalnia Glaze';
     font-style: italic;
