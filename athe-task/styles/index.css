@@ -151,7 +151,7 @@ footer{
 /* mobile */
 @media (max-width: 480px){
     *{
-        width: 90%;
+        width: 95%;
     }
     body{
         font-size: 20px;
