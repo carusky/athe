@@ -3,17 +3,17 @@
     scroll-behavior: smooth;
     font-size: 15px;
 }
-body{
+/* body{
     color:black;
     background-color:white;
-}
-.dark{
+} */
+/* .dark{ */
     /* *{ */
-        color: white;
-        background-color:rgba(20, 19, 19, 0.884);
+        /* color: white; */
+        /* background-color:rgba(20, 19, 19, 0.884); */
     /* } */
     
-}
+/* } */
 .navbar-brand{
     font-family: 'kalnia Glaze';
     font-style: italic;
@@ -143,7 +143,10 @@ footer{
     background-color: rgb(161, 36, 211); 
     border: none;
 }
-
+#ft-tel{
+    text-decoration: none;
+    color: #ffff;
+}
 
 /* mobile */
 @media (max-width: 480px){
