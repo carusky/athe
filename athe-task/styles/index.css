@@ -150,6 +150,9 @@ footer{
 
 /* mobile */
 @media (max-width: 480px){
+    *{
+        width: fit-content;
+    }
     body{
         font-size: 20px;
 
