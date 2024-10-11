@@ -179,7 +179,6 @@ footer{
         font-size: 20px;
         width: fit-content;
         font-weight:normal;
-        font-family: 'Courier New', Courier, monospace;
 
     }
     #kids-d{
@@ -243,7 +242,6 @@ footer{
         padding: 0 0 3% 0;
         font-size: 20px;
         font-weight:normal;
-        font-family: 'Courier New', Courier, monospace;
     } 
     #card-cont{
         width:100%; 
